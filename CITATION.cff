@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: >-
+  If you use OpenDLO, please cite it as below, and cite the method it
+  implements: Gilbert et al. (2014), listed under references.
+type: software
+title: OpenDLO
+abstract: >-
+  A C++ library for discontinuity layout optimisation (DLO) of plates. It
+  estimates the ultimate load of a plate under out-of-plane load as an
+  automatic yield-line analysis, solving the layout as a linear program.
+authors:
+  - family-names: Cloete
+    given-names: Renier
+    orcid: "https://orcid.org/0000-0003-1164-4437"
+    affiliation: RCL Consulting
+repository-code: "https://github.com/RCL-Consulting/OpenDLO"
+license: BSD-3-Clause
+version: 1.0.0
+date-released: "2022-04-02"
+keywords:
+  - discontinuity layout optimization
+  - yield-line analysis
+  - limit analysis
+  - plates
+  - structural engineering
+references:
+  - type: article
+    authors:
+      - family-names: Gilbert
+        given-names: Matthew
+      - family-names: He
+        given-names: Linwei
+      - family-names: Smith
+        given-names: Colin C.
+      - family-names: Le
+        given-names: Canh V.
+    title: Automatic yield-line analysis of slabs using discontinuity layout optimization
+    journal: "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences"
+    volume: 470
+    issue: "2168"
+    start: "20140071"
+    year: 2014
+    doi: 10.1098/rspa.2014.0071
